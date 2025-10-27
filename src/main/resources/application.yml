@@ -39,7 +39,7 @@ aws:
   accessKey: ${AWS_ACCESS_KEY}
   secretKey: ${AWS_SECRET_KEY}
   s3:
-    region: ${AWS_S3_REGION}
+    region: ${AWS_REGION}
     avatarBucketName: ${AWS_AVATAR_BUCKET_NAME}
 
 # Eureka configuration
@@ -76,4 +76,4 @@ logging:
   level:
     root: INFO
     org.springframework.web: DEBUG
-    com.mariuszilinskas.vsp: DEBUG
+    com.mariuszilinskas.streamix: DEBUG

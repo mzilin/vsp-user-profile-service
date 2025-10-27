@@ -1,13 +1,13 @@
-# Video Streaming Platform – Profile Service
+# Streamix – Profile Service
 
-![Build](https://img.shields.io/github/actions/workflow/status/mzilin/vsp-users-profile/build.yml?label=Build&logo=github&logoColor=white&style=flat)
-![Coverage](https://img.shields.io/codecov/c/github/mzilin/vsp-users-profile?label=Coverage&logo=codecov&logoColor=white&style=flat)
+![Build](https://img.shields.io/github/actions/workflow/status/mzilin/streamix-users-profile/build.yml?label=Build&logo=github&logoColor=white&style=flat)
+![Coverage](https://img.shields.io/codecov/c/github/mzilin/streamix-users-profile?label=Coverage&logo=codecov&logoColor=white&style=flat)
 ![Status](https://img.shields.io/badge/status-in_progress-yellow?label=Status)
 
 
-This repository contains the **Profile Service** microservice for the **Video Streaming Platform**, deployed in the **Users** cluster. It is responsible for managing user profiles, including creation, updates and deletion.
+This repository contains the **Profile Service** microservice for the **Streamix** (Video Streaming Platform), deployed in the **Users** cluster. It is responsible for managing user profiles, including creation, updates and deletion.
 
-For a complete system overview and links to all microservices, please refer to the [Microservices Hub Repository](https://github.com/mzilin/vsp-microservices-hub).
+For a complete system overview and links to all microservices, please refer to the [Microservices Hub Repository](https://github.com/mzilin/streamix-microservices-hub).
 
 
 ## Table of Contents
@@ -101,12 +101,12 @@ Ensure you have the following installed on your machine:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/mzilin/vsp-users-profile.git
+    git clone https://github.com/mzilin/streamix-users-profile.git
     ```
 
 2. Switch to the `main` branch:
     ```bash
-    cd vsp-users-profile
+    cd streamix-users-profile
     ```
 
 3. Build the project and run tests:
