@@ -1,7 +1,7 @@
 package com.mariuszilinskas.streamix.users.profile.handler;
 
-import com.mariuszilinskas.streamix.users.profile.dto.ErrorResponse;
-import com.mariuszilinskas.streamix.users.profile.dto.FieldErrorResponse;
+import com.mariuszilinskas.streamix.web.response.error.ErrorResponse;
+import com.mariuszilinskas.streamix.web.response.error.FieldErrorResponse;
 import com.mariuszilinskas.streamix.users.profile.exception.EntityExistsException;
 import com.mariuszilinskas.streamix.users.profile.exception.FileUploadException;
 import com.mariuszilinskas.streamix.users.profile.exception.IncorrectFileException;
